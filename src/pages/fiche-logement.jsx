@@ -1,3 +1,4 @@
+import Footer from "../components/footer"
 import Header from "../components/header"
 
 function FicheLogement () {
@@ -5,6 +6,7 @@ function FicheLogement () {
         <>
             <Header />
             <div>Test fiche logement</div>
+            <Footer />
         </>
     )
 }

@@ -1,3 +1,4 @@
+import Footer from "../components/footer"
 import Header from "../components/header"
 
 function ErrorPage() {
@@ -5,6 +6,7 @@ function ErrorPage() {
         <>
             <Header />
             <div>Error test</div>
+            <Footer />
         </>
     )
 }
