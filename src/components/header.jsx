@@ -4,7 +4,7 @@ function Header() {
     return(
         <header>
             <Link to="/">
-                <img src="src/assets/img/logo/LOGO.png" alt="Logo dusite" />
+                <img src="/src/assets/img/logo/LOGO.png" alt="Logo dusite" />
             </Link>
             <nav className="headerNav">
                 <NavLink className="headerNav headerNav_link" to="/">Accueil</NavLink>

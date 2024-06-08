@@ -5,7 +5,7 @@ function Footer() {
         <footer>
             <div className="footerContainer">
                 <Link to="/">
-                    <img src="src/assets/img/logo/LOGOlogo-WHITE.png" alt="Logo du site"/>
+                    <img src="/src/assets/img/logo/LOGO-WHITE.png" alt="Logo du site"/>
                 </Link>
                 <p>© 2020 Kasa. All rights reserved</p>
             </div>
