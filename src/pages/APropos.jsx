@@ -1,6 +1,11 @@
+import Header from "../components/header"
+
 function APropos() {
     return (
-        <div>A propos test</div>
+        <>
+            <Header />
+            <div>A propos test</div>
+        </>
     )
 }
 

@@ -1,6 +1,11 @@
+import Header from "../components/header"
+
 function FicheLogement () {
     return (
-        <div>Test fiche logement</div>
+        <>
+            <Header />
+            <div>Test fiche logement</div>
+        </>
     )
 }
 
