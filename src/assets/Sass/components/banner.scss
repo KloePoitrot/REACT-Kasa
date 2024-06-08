@@ -1,0 +1,30 @@
+.imgBanner{
+    @include boxShadow();
+    height:230px;
+    width:100%;
+    border-radius: 1rem;
+    overflow:hidden;
+    & img{
+        position: relative;
+        z-index: 1;
+        height:100%;
+        width:100%!important;
+        object-fit: cover;
+        object-position: center;
+    }
+    &.imgBanner_overlay{
+        position: relative;
+        background:$overlay;
+        margin-top:-234px;
+        height:230px;
+        z-index: 2;
+    }
+    &.imgBanner_text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:$invertFont;
+        font-size:3.5rem;
+        font-weight: 300;
+    }
+}

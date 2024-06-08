@@ -55,4 +55,46 @@ footer img {
   margin: 1rem 0;
 }
 
+main {
+  max-width: 1420px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0.5rem;
+}
+main img {
+  width: 100%;
+}
+
+.imgBanner {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  height: 230px;
+  width: 100%;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.imgBanner img {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  width: 100% !important;
+  object-fit: cover;
+  object-position: center;
+}
+.imgBanner.imgBanner_overlay {
+  position: relative;
+  background: rgba(0, 0, 0, 0.5019607843);
+  margin-top: -234px;
+  height: 230px;
+  z-index: 2;
+}
+.imgBanner.imgBanner_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+
 /*# sourceMappingURL=style.css.map */
