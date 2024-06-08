@@ -1,0 +1,23 @@
+header {
+    max-width: 1420px;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+    padding: 1rem .5rem;
+    img {
+        margin:1rem 0;
+    }
+}
+
+.headerNav {
+    display: flex;
+    align-items: center;
+    gap:50px;
+    font-size: 1.25rem;
+    &.headerNav_link{
+        color:black;
+    }
+    .active{
+        text-decoration: underline;
+    }
+}

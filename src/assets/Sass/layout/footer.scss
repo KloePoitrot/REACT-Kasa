@@ -1,0 +1,13 @@
+footer{
+    background:$dark;
+    color:$invertFont;
+    .footerContainer {
+        max-width: 1420px;
+        margin: auto;
+        text-align: center;
+        padding:1.5rem .5rem
+    }
+    img{
+        margin:1rem 0;
+    }
+}

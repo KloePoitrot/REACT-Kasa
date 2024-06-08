@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 
 function Header() {
     return(
@@ -6,10 +6,10 @@ function Header() {
             <Link to="/">
                 <img src="src/assets/img/logo/LOGO.png" alt="Logo dusite" />
             </Link>
-            <ul>
-                <li><Link to="/">Accueil</Link></li>
-                <li><Link to="/a-propos">A propos</Link></li>
-            </ul>
+            <nav className="headerNav">
+                <NavLink className="headerNav headerNav_link" to="/">Accueil</NavLink>
+                <NavLink className="headerNav headerNav_link" to="/a-propos">A propos</NavLink>
+            </nav>
         </header>
     )
 }

@@ -8,6 +8,9 @@ import ErrorPage from './pages/error';
 import APropos from './pages/a-propos';
 import FicheLogement from './pages/fiche-logement';
 
+/* style */
+import '/src/assets/css/style.css'
+
 const router = createBrowserRouter([
   {
     path: "/",
