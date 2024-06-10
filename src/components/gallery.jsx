@@ -5,9 +5,8 @@ function Gallery() {
     return(
         <section className="gallery">
             {data.map(el => (
-                
-                <article className="gallery-logements">
-                    <Link to={`/logements/${el.id}`} key={el.id}>
+                <article className="gallery-logements" key={el.id}>
+                    <Link to={`/fiche-logement/${el.id}`}>
                         <img src={el.cover} alt={el.title} />
                         <div className="gallery-overlay">
                             <h2 className="gallery-title">{el.title}</h2>

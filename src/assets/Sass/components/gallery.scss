@@ -1,15 +1,12 @@
 .gallery{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap:60px;
     padding:60px;
     margin:2.5rem 0;
     border-radius:$borderRadius;
     background: $shadow;
     .gallery-logements{
-        flex: 1 1 30%;
         height: 375px;
         border-radius: $borderRadius;
         overflow: hidden;
@@ -29,7 +26,7 @@
         font-size: 1.25rem;
         color:$invertFont;
         padding:1rem;
-        width:30%;
+        width:50%;
     }
     img {
         width:100%;
