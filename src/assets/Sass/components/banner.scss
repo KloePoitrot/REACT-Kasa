@@ -2,7 +2,7 @@
     @include boxShadow();
     height:230px;
     width:100%;
-    border-radius: 1rem;
+    border-radius: $borderRadius;
     overflow:hidden;
     & img{
         position: relative;
@@ -24,7 +24,7 @@
         align-items: center;
         justify-content: center;
         color:$invertFont;
-        font-size:3.5rem;
+        font-size:3rem;
         font-weight: 300;
     }
 }

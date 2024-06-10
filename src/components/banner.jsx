@@ -1,6 +1,5 @@
 function Banner(props) {
     if(props.textBanner !== undefined){
-        console.log(props.imgBanner, props.textBanner)
         return (
             <div className="imgBanner">
                 <img src={props.imgBanner} alt="Banner image" />
