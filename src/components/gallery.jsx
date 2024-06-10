@@ -3,40 +3,40 @@
 function Gallery() {
     return(
         <section className="gallery">
-            <article className="gallery gallery-logements">
+            <article className="gallery-logements">
                 <img src="../src/assets/img/banners/e270fc8fc902a1eb738458e7b29c1899.jpg" alt="test" />
-                <div className="gallery gallery-overlay">
-                    <h2 className="gallery gallery-title">Titre de la location</h2>
+                <div className="gallery-overlay">
+                    <h2 className="gallery-title">Titre de la location</h2>
                 </div>
             </article>
-            <article className="gallery gallery-logements">
+            <article className="gallery-logements">
                 <img src="../src/assets/img/banners/e270fc8fc902a1eb738458e7b29c1899.jpg" alt="test" />
-                <div className="gallery gallery-overlay">
-                    <h2 className="gallery gallery-title">Titre de la location</h2>
+                <div className="gallery-overlay">
+                    <h2 className="gallery-title">Titre de la location</h2>
                 </div>
             </article>
-            <article className="gallery gallery-logements">
+            <article className="gallery-logements">
                 <img src="../src/assets/img/banners/e270fc8fc902a1eb738458e7b29c1899.jpg" alt="test" />
-                <div className="gallery gallery-overlay">
-                    <h2 className="gallery gallery-title">Titre de la location</h2>
+                <div className="gallery-overlay">
+                    <h2 className="gallery-title">Titre de la location</h2>
                 </div>
             </article>
-            <article className="gallery gallery-logements">
+            <article className="gallery-logements">
                 <img src="../src/assets/img/banners/e270fc8fc902a1eb738458e7b29c1899.jpg" alt="test" />
-                <div className="gallery gallery-overlay">
-                    <h2 className="gallery gallery-title">Titre de la location</h2>
+                <div className="gallery-overlay">
+                    <h2 className="gallery-title">Titre de la location</h2>
                 </div>
             </article>
-            <article className="gallery gallery-logements">
+            <article className="gallery-logements">
                 <img src="../src/assets/img/banners/e270fc8fc902a1eb738458e7b29c1899.jpg" alt="test" />
-                <div className="gallery gallery-overlay">
-                    <h2 className="gallery gallery-title">Titre de la location</h2>
+                <div className="gallery-overlay">
+                    <h2 className="gallery-title">Titre de la location</h2>
                 </div>
             </article>
-            <article className="gallery gallery-logements">
+            <article className="gallery-logements">
                 <img src="../src/assets/img/banners/e270fc8fc902a1eb738458e7b29c1899.jpg" alt="test" />
-                <div className="gallery gallery-overlay">
-                    <h2 className="gallery gallery-title">Titre de la location</h2>
+                <div className="gallery-overlay">
+                    <h2 className="gallery-title">Titre de la location</h2>
                 </div>
             </article>
         </section>

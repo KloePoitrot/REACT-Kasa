@@ -9,8 +9,8 @@ function HomePage() {
             <Header />
             <main>
                 <Banner imgBanner="../src/assets/img/banners/e270fc8fc902a1eb738458e7b29c1899.jpg" textBanner="Chez vous, partout et ailleurs" />
+                <Gallery />
             </main>
-            <Gallery />
             <Footer />
         </>
     )
