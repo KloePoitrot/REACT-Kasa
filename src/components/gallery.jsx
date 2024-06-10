@@ -1,44 +1,20 @@
-// import data from '../data/logements'
+import { Link } from 'react-router-dom'
+import data from '../data/logements'
 
 function Gallery() {
     return(
         <section className="gallery">
-            <article className="gallery-logements">
-                <img src="../src/assets/img/banners/e270fc8fc902a1eb738458e7b29c1899.jpg" alt="test" />
-                <div className="gallery-overlay">
-                    <h2 className="gallery-title">Titre de la location</h2>
-                </div>
-            </article>
-            <article className="gallery-logements">
-                <img src="../src/assets/img/banners/e270fc8fc902a1eb738458e7b29c1899.jpg" alt="test" />
-                <div className="gallery-overlay">
-                    <h2 className="gallery-title">Titre de la location</h2>
-                </div>
-            </article>
-            <article className="gallery-logements">
-                <img src="../src/assets/img/banners/e270fc8fc902a1eb738458e7b29c1899.jpg" alt="test" />
-                <div className="gallery-overlay">
-                    <h2 className="gallery-title">Titre de la location</h2>
-                </div>
-            </article>
-            <article className="gallery-logements">
-                <img src="../src/assets/img/banners/e270fc8fc902a1eb738458e7b29c1899.jpg" alt="test" />
-                <div className="gallery-overlay">
-                    <h2 className="gallery-title">Titre de la location</h2>
-                </div>
-            </article>
-            <article className="gallery-logements">
-                <img src="../src/assets/img/banners/e270fc8fc902a1eb738458e7b29c1899.jpg" alt="test" />
-                <div className="gallery-overlay">
-                    <h2 className="gallery-title">Titre de la location</h2>
-                </div>
-            </article>
-            <article className="gallery-logements">
-                <img src="../src/assets/img/banners/e270fc8fc902a1eb738458e7b29c1899.jpg" alt="test" />
-                <div className="gallery-overlay">
-                    <h2 className="gallery-title">Titre de la location</h2>
-                </div>
-            </article>
+            {data.map(el => (
+                
+                <article className="gallery-logements">
+                    <Link to={`/logements/${el.id}`} key={el.id}>
+                        <img src={el.cover} alt={el.title} />
+                        <div className="gallery-overlay">
+                            <h2 className="gallery-title">{el.title}</h2>
+                        </div>
+                    </Link>
+                </article>
+            ))}
         </section>
     )
 }
