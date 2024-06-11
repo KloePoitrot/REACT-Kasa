@@ -1,0 +1,23 @@
+.collapse{
+    display:flex;
+    flex-direction: column;
+    .collapse-button{
+        display: flex;
+        z-index:1;
+        justify-content:space-between;
+        background-color: $primary;
+        color:$invertFont;
+        padding:.75rem .5rem;
+        border-radius: $lightRadius;
+    }
+    .collapse-content{
+        z-index:-1;
+        background-color: $shadow;
+        margin-top:-.5rem;
+        padding: 1.5rem 1rem 1rem 1rem;
+        border-radius: 0 0 $lightRadius $lightRadius;
+    }
+    .collapse-hidden{
+        display:none;
+    }
+}

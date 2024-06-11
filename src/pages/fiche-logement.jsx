@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom"
 import data from '../data/logements.json'
 import ErrorPage from "./error"
 import Rating from "../components/rating"
+import Collapse from "../components/collapse"
 
 function FicheLogement () {
     const { id }  = useParams()
@@ -21,11 +22,13 @@ function FicheLogement () {
                         <Rating value={logData.rating}/>
                         <div>{logData.equipments}</div>
                         <div>{logData.tags}</div>
+                        <Collapse />
                     </main>
                 <Footer />
             </>
         )
-    } else {
+    } 
+    if(logData === undefined){
         return (
             <ErrorPage />
         )
