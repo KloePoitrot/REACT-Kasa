@@ -22,7 +22,9 @@ function FicheLogement () {
                         <Rating value={logData.rating}/>
                         <div>{logData.equipments}</div>
                         <div>{logData.tags}</div>
-                        <Collapse />
+                        <Collapse title="Title Test">
+                            {logData.description}
+                        </Collapse>
                     </main>
                 <Footer />
             </>

@@ -150,18 +150,32 @@ main img {
   justify-content: space-between;
   background-color: #FF6060;
   color: #fff;
-  padding: 0.75rem 0.5rem;
+  padding: 1rem 0.75rem;
+  font-size: 16px;
   border-radius: 0.5rem;
+  border: 0;
 }
 .collapse .collapse-content {
   z-index: -1;
   background-color: rgba(0, 0, 0, 0.1);
   margin-top: -0.5rem;
-  padding: 1.5rem 1rem 1rem 1rem;
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
   border-radius: 0 0 0.5rem 0.5rem;
+}
+.collapse .collapse-show {
+  transition: 0.5s;
+  display: block;
+  animation: collapseShow 0.5s;
 }
 .collapse .collapse-hidden {
   display: none;
+}
+.collapse i.collapse-inactive {
+  transition: 0.5s;
+}
+.collapse i.collapse-active {
+  transform: rotate(-180deg);
+  transition: 0.5s;
 }
 
 /*# sourceMappingURL=style.css.map */

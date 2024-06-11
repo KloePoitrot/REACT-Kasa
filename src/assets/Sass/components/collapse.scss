@@ -7,17 +7,31 @@
         justify-content:space-between;
         background-color: $primary;
         color:$invertFont;
-        padding:.75rem .5rem;
+        padding:1rem .75rem;
+        font-size: 16px;
         border-radius: $lightRadius;
+        border:0;
     }
     .collapse-content{
         z-index:-1;
         background-color: $shadow;
         margin-top:-.5rem;
-        padding: 1.5rem 1rem 1rem 1rem;
+        padding: 2rem 1.5rem 1.5rem 1.5rem;
         border-radius: 0 0 $lightRadius $lightRadius;
     }
+    .collapse-show{
+        transition: .5s;
+        display: block;
+        animation: collapseShow .5s;
+    }
     .collapse-hidden{
-        display:none;
+        display: none;
+    }
+    i.collapse-inactive{
+        transition: .5s;
+    }
+    i.collapse-active{
+        transform: rotate(-180deg);
+        transition: .5s;
     }
 }
