@@ -3,6 +3,7 @@ import Header from "../components/header"
 import { useParams } from "react-router-dom"
 import data from '../data/logements.json'
 import ErrorPage from "./error"
+import Rating from "../components/rating"
 
 function FicheLogement () {
     const { id }  = useParams()
@@ -17,6 +18,7 @@ function FicheLogement () {
                         <div>{logData.description}</div>
                         <div>{logData.host.name}</div>
                         <div>{logData.rating}</div>
+                        <Rating value={logData.rating}/>
                         <div>{logData.equipments}</div>
                         <div>{logData.tags}</div>
                     </main>
