@@ -102,7 +102,7 @@ main img {
 }
 .imgBanner.imgBanner_overlay {
   position: relative;
-  background: rgba(0, 0, 0, 0.5019607843);
+  background: rgba(0, 0, 0, 0.3647058824);
   margin-top: -234px;
   height: 230px;
   z-index: 2;
@@ -113,7 +113,8 @@ main img {
   justify-content: center;
   color: #fff;
   font-size: 3rem;
-  font-weight: 300;
+  font-weight: 600;
+  text-shadow: 0 2px 4px black;
 }
 
 .gallery {
@@ -181,6 +182,7 @@ main img {
   font-size: 1.5rem;
   border-radius: 0.5rem;
   border: 0;
+  cursor: pointer;
 }
 .collapse .collapse-content {
   z-index: -1;
