@@ -5,7 +5,6 @@ function Collapse(props){
 
     const handleClick = () => {
         setIsCollapsed(!isCollapsed)
-        console.log(isCollapsed)
     }
 
     return(

@@ -5,6 +5,7 @@ import data from '../data/logements.json'
 import ErrorPage from "./error"
 import Rating from "../components/rating"
 import Collapse from "../components/collapse"
+import Slideshow from "../components/slideshow"
 
 function FicheLogement () {
     const { id }  = useParams()
@@ -15,6 +16,7 @@ function FicheLogement () {
             <>
                 <Header />
                     <main>
+                        <Slideshow images={logData.pictures} alt={logData.title}/>
                         <div>{logData.title}</div>
                         <div>{logData.description}</div>
                         <div>{logData.host.name}</div>
