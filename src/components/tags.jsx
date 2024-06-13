@@ -1,9 +1,9 @@
 function Tags(props){
     return(
         <div className="tags">
-            <div className="tag">{props.tags[0]}</div>
-            <div className="tag">{props.tags[1]}</div>
-            <div className="tag">{props.tags[2]}</div>
+            {props.tags.map(el => (
+                <div className="tag">{el}</div>
+            ))}
         </div>
     )
 }
