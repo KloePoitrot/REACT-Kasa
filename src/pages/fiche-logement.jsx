@@ -6,6 +6,7 @@ import ErrorPage from "./error"
 import Rating from "../components/rating"
 import Collapse from "../components/collapse"
 import Slideshow from "../components/slideshow"
+import Tags from "../components/tags"
 
 function FicheLogement () {
     const { id }  = useParams()
@@ -23,7 +24,7 @@ function FicheLogement () {
                         <div>{logData.rating}</div>
                         <Rating value={logData.rating}/>
                         <div>{logData.equipments}</div>
-                        <div>{logData.tags}</div>
+                        <Tags tags={logData.tags}/>
                         <Collapse title="Title Test">
                             {logData.description}
                         </Collapse>

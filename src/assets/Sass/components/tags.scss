@@ -1,0 +1,13 @@
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    .tag{
+        text-align: center;
+        background:$primary;
+        color: $invertFont;
+        border-radius:$lightRadius;
+        padding:.25rem .75rem;
+        min-width:120px
+    }
+}
