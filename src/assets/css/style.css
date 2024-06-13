@@ -64,6 +64,27 @@ main img {
   width: 100%;
 }
 
+.Error {
+  padding: 5rem 0;
+  text-align: center;
+}
+.Error .Error-title {
+  color: #FF6060;
+  font-size: 15rem;
+}
+.Error .Error-text {
+  display: block;
+  color: #FF6060;
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+.Error .Error-link {
+  display: block;
+  text-decoration: underline;
+  margin: 4rem 0;
+  color: black;
+}
+
 .imgBanner {
   box-shadow: 0 8px 3px rgba(0, 0, 0, 0.1);
   height: 230px;
