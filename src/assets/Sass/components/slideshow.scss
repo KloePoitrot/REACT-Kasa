@@ -1,4 +1,5 @@
 .slideShow{
+    background:#3f3b3b;
     @include boxShadow(); 
     position: relative;
     height:450px;
@@ -16,7 +17,7 @@
     }
     .slideShow-btn{
         position: absolute;
-        z-index: 2;
+        z-index: 3;
         height:100%;
         width:calc(100% - 2rem);
         display: flex;
@@ -26,6 +27,9 @@
         font-size:6rem;
         font-weight: 600;
         padding:1rem;
+        & > i{
+            cursor: pointer;
+        }
     }
     .slideShow-nav{
         position: absolute;

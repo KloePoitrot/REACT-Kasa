@@ -208,6 +208,7 @@ main img {
 }
 
 .slideShow {
+  background: #3f3b3b;
   box-shadow: 0 8px 3px rgba(0, 0, 0, 0.05);
   position: relative;
   height: 450px;
@@ -226,7 +227,7 @@ main img {
 }
 .slideShow .slideShow-btn {
   position: absolute;
-  z-index: 2;
+  z-index: 3;
   height: 100%;
   width: calc(100% - 2rem);
   display: flex;
@@ -236,6 +237,9 @@ main img {
   font-size: 6rem;
   font-weight: 600;
   padding: 1rem;
+}
+.slideShow .slideShow-btn > i {
+  cursor: pointer;
 }
 .slideShow .slideShow-nav {
   position: absolute;
