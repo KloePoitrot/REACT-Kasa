@@ -24,13 +24,13 @@ function FicheLogement () {
                                     <h1>{logData.title}</h1>
                                     <p>{logData.location}</p>
                                 </div>
-                                <div className="logementHost">
-                                    <img src={logData.host.picture} alt={logData.host.name} />
-                                    <p>{logData.host.name}</p>
-                                </div>
+                                <Tags tags={logData.tags}/>
                             </div>
                             <div>
-                                <Tags tags={logData.tags}/>
+                                <div className="logementHost">
+                                    <img src={logData.host.picture} alt=    {logData.host.name} />
+                                    <p>{logData.host.name}</p>
+                                </div>
                                 <Rating value={logData.rating}/>
                             </div>
                         </article>

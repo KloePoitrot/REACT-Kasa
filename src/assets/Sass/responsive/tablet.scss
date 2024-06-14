@@ -1,0 +1,50 @@
+@media (max-width:961px) {
+    main, header {
+        margin-left:1.5rem;
+        margin-right:1.5rem
+    }
+
+    // Banner
+    .imgBanner .imgBanner_text{
+        font-size:2.5rem;
+        padding: 0 1rem;
+        width:calc(100% - 2rem )
+    }
+
+    // Accueil
+    .gallery{
+        grid-template-columns: repeat(2, 1fr);
+        gap:30px;
+        padding:30px;
+        .gallery-logements{
+            height: 300px;
+        }
+    }
+
+    // Fiche logement
+    .logementContent > div .logementTitle h1{
+        font-size: 1.75rem;
+        
+    }
+    .logementCollapse{
+        gap:1rem
+    }
+
+    // slideshow
+    .slideShow .slideShow-btn{
+        font-size: 3.5rem;
+    }
+
+    // error
+    .Error{
+        .Error-title{
+            font-size: 10rem;
+        }
+        .Error-text{
+            font-size:1.5rem;
+        }
+        .Error-link{
+            margin: 5rem 0;
+        }
+    }
+}

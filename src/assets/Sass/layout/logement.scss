@@ -1,7 +1,18 @@
-.logementContent > div{
+.logementContent {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    margin:2rem 0;
+    gap:20px;
+    & > div {
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        justify-content: space-between;
+        margin:2rem 0;
+    }
+    & > div:nth-child(2) {
+        align-items: end;
+    }
     .logementTitle{
         & h1{
             color: $primary;
