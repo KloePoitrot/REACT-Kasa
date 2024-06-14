@@ -1,4 +1,7 @@
 .rate{
+    display:flex;
+    font-size: 1.5rem;
+    gap:1rem;
     .rate-active{
         color:$primary
     }

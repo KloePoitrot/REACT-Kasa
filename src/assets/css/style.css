@@ -85,6 +85,36 @@ main img {
   color: black;
 }
 
+.logementContent > div {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+.logementContent > div .logementTitle h1 {
+  color: #FF6060;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+.logementContent > div .logementHost {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logementContent > div .logementHost p {
+  color: #FF6060;
+}
+.logementContent > div .logementHost img {
+  order: 2;
+  border-radius: 5rem;
+  width: 60px;
+}
+
+.logementCollapse {
+  display: flex;
+  gap: 80px;
+}
+
 .imgBanner {
   box-shadow: 0 8px 3px rgba(0, 0, 0, 0.05);
   height: 230px;
@@ -155,6 +185,11 @@ main img {
   object-position: center;
 }
 
+.rate {
+  display: flex;
+  font-size: 1.5rem;
+  gap: 1rem;
+}
 .rate .rate-active {
   color: #FF6060;
 }
@@ -171,6 +206,7 @@ main img {
   display: flex;
   flex-direction: column;
   margin-bottom: 1.25rem;
+  flex: 1;
 }
 .collapse .collapse-button {
   display: flex;
@@ -255,6 +291,7 @@ main img {
 
 .tags {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   gap: 10px;
 }

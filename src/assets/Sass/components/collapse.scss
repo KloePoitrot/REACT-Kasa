@@ -3,14 +3,13 @@
     width:90%;
 }
 
-// .ficheCollapse{
 
-// }
 
 .collapse{
     display:flex;
     flex-direction: column;
     margin-bottom:1.25rem;
+    flex:1;
     .collapse-button{
         display: flex;
         z-index:1;

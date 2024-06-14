@@ -1,0 +1,30 @@
+.logementContent > div{
+    display: flex;
+    justify-content: space-between;
+    margin:2rem 0;
+    .logementTitle{
+        & h1{
+            color: $primary;
+            font-size: 2rem;
+            font-weight: 400;
+            margin-bottom:.5rem
+        }
+    }
+    .logementHost{
+        display: flex;
+        align-items: center;
+        gap:10px;
+        & p {
+            color:$primary;
+        }
+        & img{
+            order:2;
+            border-radius:5rem;
+            width:60px
+        }
+    }
+}
+.logementCollapse{
+    display: flex;
+    gap:80px;
+}

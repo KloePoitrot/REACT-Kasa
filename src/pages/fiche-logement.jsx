@@ -16,18 +16,37 @@ function FicheLogement () {
         return(
             <>
                 <Header />
-                    <main>
+                    <main className="logement">
                         <Slideshow images={logData.pictures} alt={logData.title}/>
-                        <div>{logData.title}</div>
-                        <div>{logData.description}</div>
-                        <div>{logData.host.name}</div>
-                        <div>{logData.rating}</div>
-                        <Rating value={logData.rating}/>
-                        <div>{logData.equipments}</div>
-                        <Tags tags={logData.tags}/>
-                        <Collapse title="Title Test">
-                            {logData.description}
-                        </Collapse>
+                        <article className="logementContent">
+                            <div>
+                                <div className="logementTitle">
+                                    <h1>{logData.title}</h1>
+                                    <p>{logData.location}</p>
+                                </div>
+                                <div className="logementHost">
+                                    <img src={logData.host.picture} alt={logData.host.name} />
+                                    <p>{logData.host.name}</p>
+                                </div>
+                            </div>
+                            <div>
+                                <Tags tags={logData.tags}/>
+                                <Rating value={logData.rating}/>
+                            </div>
+                        </article>
+                        <section className="logementCollapse">
+                            <Collapse title="Description">
+                                {logData.description}
+                            </Collapse>
+                            <Collapse title="Equipements">
+                                <ul>
+                                    {logData.equipments.map((el, index) => (
+                                        <li key={index}>{el}</li>
+                                    )
+                                )}
+                                </ul>
+                            </Collapse>
+                        </section>
                     </main>
                 <Footer />
             </>

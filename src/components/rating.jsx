@@ -4,7 +4,6 @@ function Rating(props) {
             return(
                 
                 <div className="rate">
-                    <p>Test</p>
                     <i className="fa-solid fa-star rate-inactive"></i>
                     <i className="fa-solid fa-star rate-inactive"></i>
                     <i className="fa-solid fa-star rate-inactive"></i>
@@ -16,7 +15,6 @@ function Rating(props) {
         case "1":
             return(
                 <div className="rate">
-                    <p>Test</p>
                     <i className="fa-solid fa-star rate-active"></i>
                     <i className="fa-solid fa-star rate-inactive"></i>
                     <i className="fa-solid fa-star rate-inactive"></i>
@@ -28,7 +26,6 @@ function Rating(props) {
         case "2":
             return(
                 <div className="rate">
-                    <p>Test</p>
                     <i className="fa-solid fa-star rate-active"></i>
                     <i className="fa-solid fa-star rate-active"></i>
                     <i className="fa-solid fa-star rate-inactive"></i>
@@ -40,7 +37,6 @@ function Rating(props) {
         case "3":
             return(
                 <div className="rate">
-                    <p>Test</p>
                     <i className="fa-solid fa-star rate-active"></i>
                     <i className="fa-solid fa-star rate-active"></i>
                     <i className="fa-solid fa-star rate-active"></i>
@@ -52,7 +48,6 @@ function Rating(props) {
         case "4":
             return(
                 <div className="rate">
-                    <p>Test</p>
                     <i className="fa-solid fa-star rate-active"></i>
                     <i className="fa-solid fa-star rate-active"></i>
                     <i className="fa-solid fa-star rate-active"></i>
@@ -64,7 +59,6 @@ function Rating(props) {
         case "5":
             return(
                 <div className="rate">
-                    <p>Test</p>
                     <i className="fa-solid fa-star rate-active"></i>
                     <i className="fa-solid fa-star rate-active"></i>
                     <i className="fa-solid fa-star rate-active"></i>
