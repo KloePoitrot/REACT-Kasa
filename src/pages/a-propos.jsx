@@ -9,7 +9,7 @@ function APropos() {
             <Header />
             <main>
                 <Banner imgBanner="../src/assets/img/banners/b9995860bb6384a77ca7dc9bf52da3be.jpg"/>
-                <section class="listCollapse">
+                <section className="listCollapse">
                     <Collapse title="Fiabilité">
                         <p>Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements. et
                         toutes les informations sont régulièrement vérifiées par nos équipes.</p>

@@ -93,7 +93,7 @@ main img {
 .logementContent > div .logementTitle h1 {
   color: #FF6060;
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 500;
   margin-bottom: 0.5rem;
 }
 .logementContent > div .logementHost {
@@ -170,6 +170,11 @@ main img {
   margin-top: -379px;
   height: 375px;
   z-index: 2;
+  transition: 0.2s;
+}
+.gallery .gallery-overlay:hover {
+  opacity: 0.4;
+  transition: 0.2s;
 }
 .gallery .gallery-title {
   font-weight: 300;
@@ -198,8 +203,9 @@ main img {
 }
 
 .listCollapse {
+  display: block;
   margin: 2rem auto;
-  width: 90%;
+  max-width: 1250px;
 }
 
 .collapse {
